@@ -1,16 +1,17 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_testes/app/model/person.dart';
+import 'package:flutter_testes/person.dart';
 
 void main() {
   Person person = Person(
-    fullName: 'Iury Vasconcelos Leitão',
+    id: 2,
+    name: 'Iury Vasconcelos Leitão',
     age: 28,
     weight: 78.0,
     height: 1.74,
   );
   test('All Matchs', () async {
     expect(
-      person.fullName,
+      person.name,
       allOf([
         equals('Iury Vasconcelos Leitão'),
         isA<String>(),
