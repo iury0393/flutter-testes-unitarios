@@ -6,6 +6,7 @@ class InfoPage extends StatefulWidget {
   @override
   InfoPageState createState() => InfoPageState();
 }
+
 class InfoPageState extends State<InfoPage> {
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class InfoPageState extends State<InfoPage> {
         title: Text(widget.title),
       ),
       body: Column(
-        children: <Widget>[],
+        children: const [],
       ),
     );
   }

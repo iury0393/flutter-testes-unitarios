@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_testes/person.dart';
 
 void main() {
-  Person person = Person(
+  final Person person = Person(
     id: 2,
     name: 'Iury Vasconcelos Leitão',
     age: 28,
@@ -25,7 +25,7 @@ void main() {
       expect(person.imc, 25.76);
     });
     test('Display if person is older', () async {
-      expect(person.old, true);
+      expect(person.isOlder, true);
     });
   });
 

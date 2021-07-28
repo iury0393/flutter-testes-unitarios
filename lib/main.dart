@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
+import 'bloc_provider.dart';
+import 'home_page.dart';
+import 'person_bloc.dart';
 import 'person_repository.dart';
 
 void main() {
