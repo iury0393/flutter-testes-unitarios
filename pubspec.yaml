@@ -19,7 +19,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mockito: ^5.0.12
-  flutter_modular_test: ^1.0.1
   lint: ^1.5.3
 
 flutter:

@@ -6,8 +6,6 @@ analyzer:
     deprecated_member_use_from_same_package: ignore
     sdk_version_async_exported_from_core: ignore
     unnecessary_null_comparison: ignore
-  exclude:
-    - test/**
 
 linter:
   rules:
