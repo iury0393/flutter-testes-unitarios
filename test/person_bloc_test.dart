@@ -1,11 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_testes/person.dart';
 import 'package:flutter_testes/person_bloc.dart';
-import 'package:flutter_testes/person_repository.dart';
 import 'package:flutter_testes/person_state.dart';
 import 'package:mockito/mockito.dart';
 
-class PersonRepositoryMock extends Mock implements PersonRepository {}
+import 'person_mock.dart';
 
 void main() {
   final repository = PersonRepositoryMock();
